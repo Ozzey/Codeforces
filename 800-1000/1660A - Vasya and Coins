@@ -1,0 +1,28 @@
+//https://codeforces.com/problemset/problem/1660/A
+
+#include <iostream>
+
+
+int main(){
+    int n;
+    std::cin>>n;
+
+    while(n--){
+        int a,b;
+        std::cin>>a>>b;
+
+        int t= a+(2*b);
+
+        if(a !=0)
+            std::cout<<t+1<<std::endl;
+        
+        else{
+            std::cout<<1<<std::endl;
+        }
+    }
+}
+
+
+
+// a=2 , b=2 , am=3
+// if there exists x,y : x+y = i
